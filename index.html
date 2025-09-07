@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Web Interractivity.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Interactive Elements -->
+  <div class="interactive-section">
+    <h2>Interactive Elements</h2>
+    <button id="myButton">Click Here!</button>
+    <p id="message"></p>
+  </div>
+
+  <!-- Light/Dark Mode Toggle -->
+  <div class="interactive-section">
+    <h2>Light/Dark Mode Toggle</h2>
+    <input type="checkbox" id="toggle">
+    <label for="toggle">Toggle Theme</label>
+    <p id="theme-message"></p>
+  </div>
+
+  <!-- Form with Custom Validation -->
+  <form id="myForm">
+    <h2>Form with Custom Validation</h2>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button id="submit">Submit</button>
+    <p id="error-message"></p>
+  </form>
+
+
+  <!-- Add a container for the FAQ section -->
+<div class="faq-section">
+  <!-- Add a heading for the FAQ section -->
+  <h2>Frequently Asked Questions(FAQs)</h2>
+  
+  <!-- Add a button to toggle the visibility of the FAQs -->
+  <button id="faq-toggle">Show/Hide FAQs</button>
+  
+  <!-- Add a container for the FAQs -->
+  <div class="faqs">
+    <!-- Add individual FAQ items with a title and content -->
+    <div class="faq-item">
+      <h3>Q: What is your return policy?</h3>
+      <p>A: We offer a 30-day money-back guarantee. If you're not satisfied, we'll refund your purchase.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Q: How do I track my order?</h3>
+      <p>A: You can track your order by logging into your account and clicking on the "Order History" tab.</p>
+    </div>
+    <!-- Add more FAQ items as needed -->
+  </div>
+</div>
+
+  <!-- Script and Style Links -->
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</body>
+</html>

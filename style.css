@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.interactive-section {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#theme-message {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #3e8e41;
+}
+
+#error-message {
+  font-size: 18px;
+  margin-top: 10px;
+  color: red;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #f9f9f9; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  background-image: linear-gradient(to bottom, #444, #555);
+}
+
+h2, p {
+  color: #333;
+}
+
+.faq-section {
+  margin-bottom: 20px;
+}
+
+#faq-toggle {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#faq-toggle:hover {
+  background-color: #3e8e41;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
